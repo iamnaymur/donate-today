@@ -85,8 +85,87 @@
 /* donate section ends */
 
 /* album section starts */
+ .photo-album{
+    height: 50vh;
+}
 
-/* .album-one{
+.photo-album{
     display: flex;
-} */
+    justify-content: center;
+    margin: 200px;
+    gap: 200px;
+}
+
+.photo-title{
+    font-size: 70px;
+    color: rgb(205, 196, 196);
+    font-weight: 500;
+}
+
+.photo-description{
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 22px;
+    color: rgb(223, 81, 29);
+}
+
+.first{
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    box-shadow: 8px 8px darkgray;
+    
+}
+
 /* album section ends */
+
+/* my update starts */
+.about-me{
+    text-align: center;
+}
+ 
+.email-style{
+    background-color: rgb(219, 147, 51);
+    padding: 50px 50px ;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+}
+.email-btn{
+    padding: 14px 35px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: rgb(255, 106, 52);
+    background-color: rgb(255, 255, 255);
+    margin-right: 5px;
+}
+
+.about-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.about-description{
+    font-size: 22px ;
+    color: rgb(255, 106, 52);
+    font-style: italic;
+    margin-bottom: 30px;
+}
+/* my update ends */
+.footer{
+    margin-top: 30px;
+    background-color: gray;
+    text-align: center;
+    padding: 80px;
+}
+.footer-title{
+    font-size:45px;
+    font-weight: 500px;
+    font-style: oblique;
+}
+.footer-ends{
+    font-size: 16px;
+    font-weight: 400px;
+}
